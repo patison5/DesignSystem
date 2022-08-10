@@ -1,0 +1,22 @@
+{
+  "name": "DesignSystem",
+  "version": "0.1.0",
+  "summary": "A short description of DesignSystem.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/patison5/DesignSystem",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "patison5": "patison4@yandex.ru"
+  },
+  "source": {
+    "git": "https://github.com/patison5/DesignSystem.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DesignSystem/Classes/**/*"
+}
