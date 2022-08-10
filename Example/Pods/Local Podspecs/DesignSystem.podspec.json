@@ -1,8 +1,8 @@
 {
   "name": "DesignSystem",
   "version": "0.1.0",
-  "summary": "A short description of DesignSystem.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "DesignSystem that provide more functionality to your project.",
+  "description": "TODO: A very huge design system that provide more various functionality to your project!",
   "homepage": "https://github.com/patison5/DesignSystem",
   "license": {
     "type": "MIT",
@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "DesignSystem/Classes/**/*"
+  "swift_versions": "4.1",
+  "source_files": "DesignSystem/Classes/**/*",
+  "resource_bundles": {
+    "Resources": [
+      "DesignSystem/Assets/*.xcassets"
+    ]
+  },
+  "frameworks": "UIKit",
+  "swift_version": "4.1"
 }

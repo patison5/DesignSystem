@@ -9,16 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'DesignSystem'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DesignSystem.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'DesignSystem that provide more functionality to your project.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: A very huge design system that provide more various functionality to your project!
                        DESC
 
   s.homepage         = 'https://github.com/patison5/DesignSystem'
@@ -29,14 +22,15 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '4.1'
 
   s.source_files = 'DesignSystem/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'DesignSystem' => ['DesignSystem/Assets/*.png']
-  # }
+  s.resource_bundles = {
+      'Resources' => ['DesignSystem/Assets/*.xcassets']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
